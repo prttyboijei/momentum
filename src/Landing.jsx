@@ -93,7 +93,7 @@ export default function Landing({ onAuth }) {
           <Zap size={13} color={C.accent} fill={C.accent} />
           <span style={{ fontSize: 12, color: C.textMuted, fontFamily: "'Fraunces',serif" }}>Momentum</span>
         </div>
-        <span style={{ fontSize: 11, color: C.textMuted }}>Powered by Claude AI</span>
+        <span style={{ fontSize: 11, color: C.textMuted }}>Made by yoshi</span>
       </div>
     </div>
   );
