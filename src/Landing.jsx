@@ -46,7 +46,7 @@ export default function Landing({ onAuth }) {
         }}>
           Build Momentum<br />
           <em style={{ color: C.accent, fontStyle: 'italic' }}>Every Day</em>
-        </h1>
+        </h1> {/* Updated branding */}
 
         <p style={{
           fontSize: 17, color: C.textSub, lineHeight: 1.75,
