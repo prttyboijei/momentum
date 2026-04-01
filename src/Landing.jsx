@@ -21,7 +21,7 @@ export default function Landing({ onAuth }) {
           <div style={{ width: 32, height: 32, background: C.accent, borderRadius: 9, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Zap size={17} color="#07070A" fill="#07070A" />
           </div>
-          <span className="f-serif" style={{ fontSize: 19, fontWeight: 700, color: C.text }}>Momentum</span>
+          <span className="f-serif" style={{ fontSize: 19, fontWeight: 700, color: C.text }}>Momentum by Yoshi</span>
         </div>
         <div style={{ display: 'flex', gap: 10 }}>
           <Btn variant="ghost" onClick={() => onAuth('login')}>Log In</Btn>
@@ -44,7 +44,7 @@ export default function Landing({ onAuth }) {
           fontSize: 'clamp(46px,7vw,72px)', fontWeight: 700, lineHeight: 1.08,
           color: C.text, marginBottom: 22,
         }}>
-          Build Momentum<br />
+          Build Momentum by Yoshi<br />
           <em style={{ color: C.accent, fontStyle: 'italic' }}>Every Day</em>
         </h1>
 
@@ -91,7 +91,7 @@ export default function Landing({ onAuth }) {
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
           <Zap size={13} color={C.accent} fill={C.accent} />
-          <span style={{ fontSize: 12, color: C.textMuted, fontFamily: "'Fraunces',serif" }}>Momentum</span>
+          <span style={{ fontSize: 12, color: C.textMuted, fontFamily: "'Fraunces',serif" }}>Momentum by Yoshi</span>
         </div>
         <span style={{ fontSize: 11, color: C.textMuted }}>Made by yoshi</span>
       </div>

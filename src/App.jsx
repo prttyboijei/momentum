@@ -9,7 +9,20 @@ import Goals      from './Goals';
 import Log        from './Log';
 import FocusTimer from './FocusTimer';
 import Insights   from './Insights';
+import { supabase } from "./supabaseClient"
 
+async function signUp(email, password) {
+  const { data, error } = await supabase.auth.signUp({
+    email: email,
+    password: password,
+  })
+
+  if (error) {
+    console.log(error)
+  } else {
+    console.log("Account created")
+  }
+}
 // Scenes: 'landing' | 'auth' | 'app'
 
 export default function App() {

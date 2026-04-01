@@ -44,7 +44,7 @@ export default function Auth({ mode: init, onLogin, onBack }) {
             {mode === 'signup' ? 'Create your account' : 'Welcome back'}
           </h2>
           <p style={{ fontSize: 13, color: C.textMuted }}>
-            {mode === 'signup' ? 'Start building momentum today.' : 'Continue your journey.'}
+            {mode === 'signup' ? 'Start building momentum with Yoshi today.' : 'Continue your journey.'}
           </p>
         </div>
 

@@ -73,7 +73,7 @@ export default function Goals({ goals, setGoals, setActiveGoalId, setPage }) {
         <Card style={{ textAlign: 'center', padding: 64 }}>
           <Target size={38} color={C.textMuted} style={{ margin: '0 auto 14px' }} />
           <h3 style={{ color: C.text, marginBottom: 8, fontSize: 16 }}>No goals yet</h3>
-          <p style={{ color: C.textMuted, fontSize: 13, marginBottom: 18 }}>Create your first goal to start building momentum.</p>
+          <p style={{ color: C.textMuted, fontSize: 13, marginBottom: 18 }}>Create your first goal to start building momentum with Yoshi.</p>
           <Btn onClick={() => setCreating(true)}><Plus size={15} /> Create Your First Goal</Btn>
         </Card>
       ) : (

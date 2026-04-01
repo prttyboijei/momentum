@@ -45,7 +45,7 @@ export default function Insights({ goals, logs }) {
       .map((l) => `[${l.date} ${l.time}] ${l.action}`)
       .join('\n');
 
-    const prompt = `You are an AI performance coach for Momentum, a goal tracking app. Analyze the following goal and action log.
+    const prompt = `You are an AI performance coach for Momentum by Yoshi, a goal tracking app. Analyze the following goal and action log.
 
 Goal: ${activeGoal.title}
 Target: ${activeGoal.target || 'Not specified'}

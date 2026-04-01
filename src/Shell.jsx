@@ -25,7 +25,7 @@ export default function Shell({ user, onLogout, page, setPage, children }) {
           <div style={{ width: 30, height: 30, background: C.accent, borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Zap size={16} color="#07070A" fill="#07070A" />
           </div>
-          <span className="f-serif" style={{ fontSize: 17, fontWeight: 700, color: C.text }}>Momentum</span>
+          <span className="f-serif" style={{ fontSize: 17, fontWeight: 700, color: C.text }}>Momentum by Yoshi</span>
         </div>
 
         {/* Nav links */}
