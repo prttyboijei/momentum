@@ -44,7 +44,7 @@ export default function Landing({ onAuth }) {
           fontSize: 'clamp(46px,7vw,72px)', fontWeight: 700, lineHeight: 1.08,
           color: C.text, marginBottom: 22,
         }}>
-          Build Momentum by Yoshi<br />
+          Build Momentum<br />
           <em style={{ color: C.accent, fontStyle: 'italic' }}>Every Day</em>
         </h1>
 
